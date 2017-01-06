@@ -13,3 +13,9 @@ local _,_,message = event.pull(chat_message)
 if message = "Open Door" then
   rs.setOutput(side, 15)
   os.sleep(delay)
+  rs.setOutput(side, 0)
+  end
+if message = "end" then
+    on = false
+    print("0000000000000000000000000000000")
+end
