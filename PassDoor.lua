@@ -10,6 +10,7 @@ local delay = 3
 --------
 while on do
 local _,_,message = event.pull(chat_message)
+  
 if message = "Open Door" then
   rs.setOutput(side, 15)
   os.sleep(delay)
@@ -17,5 +18,5 @@ if message = "Open Door" then
   end
 if message = "end" then
     on = false
-    print("0000000000000000000000000000000")
+    print("Good Bye")
 end
